@@ -1,0 +1,29 @@
+@import "_variables.scss";
+
+html{
+    font-size: 62.5%;
+    padding: 0rem;
+    margin-top: -3rem;
+    box-sizing: 0rem;
+}
+.title1 {
+    position: relative;
+    top: 84rem;
+    margin-right: -16rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 7rem;
+    letter-spacing: 4rem;
+    background: -webkit-gradient(linear, left top, right top,
+    color-stop(30%, rgba(243, 221, 212, 0)), color-stop(50%, $lightPeach),
+    color-stop(70%, rgba(243, 221, 212, 0)));
+    animation: mymove 3.5s infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    z-index: 2;
+}
+@keyframes mymove {
+    from {left: -3rem;}
+    to {left: 3rem;}
+  }

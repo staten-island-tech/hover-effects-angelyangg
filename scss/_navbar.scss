@@ -1,0 +1,46 @@
+@import "_variables.scss";
+
+// NOT IN USE
+
+html{
+    font-size: 62.5%;
+    padding: 0rem;
+    margin-top: -3rem;
+    box-sizing: 0rem;
+}
+.navBar {
+    width: 100%;
+    background-color: $lightPeach;
+    overflow: auto;
+    position: absolute;
+    top: 0rem;
+  }
+  
+.navBar a {
+    float: left;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    letter-spacing: .2rem;
+    padding: 1.5rem;
+    color: black;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navBar a:hover {
+    background-color: white;
+    transition: .4s ease;
+  }
+  
+  /* Current/active navbar link */
+  .home {
+    background-color: $darkPeach;
+    border-right: .1rem solid black;
+  }
+
+  .twitter a:hover{
+    background-color: white;
+    transition: .4s ease;
+  }
+  

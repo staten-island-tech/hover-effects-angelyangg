@@ -1,0 +1,25 @@
+@import "_variables.scss";
+
+html{
+    font-size: 62.5%;
+    padding: 0rem;
+    margin-top: -3rem;
+    box-sizing: 0rem;
+}
+.leftcolumn{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 51rem;
+    left: 16.5rem;
+}
+.bw1{
+    width: 20%;
+    border: 1rem solid white;
+}
+.bw2{
+    width: 20%;
+    border-left: 1rem solid white;
+    border-right: 1rem solid white;
+    border-bottom: 1rem solid white;
+}
