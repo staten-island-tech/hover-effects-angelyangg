@@ -90,11 +90,21 @@ html {
   border: 1rem solid white;
 }
 
+.bw1:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 .bw2 {
   width: 20%;
-  border-left: 1rem solid white;
-  border-right: 1rem solid white;
-  border-bottom: 1rem solid white;
+  top: 51rem;
+  border: 1rem solid white;
+  position: absolute;
+}
+
+.bw2:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 html {
@@ -168,9 +178,7 @@ html {
 
 .butterflypic {
   position: relative;
-  display: block;
-  margin-left: auto;
-  margin-right: 16rem;
+  margin-left: 27rem;
   top: -8rem;
   width: 130rem;
   -webkit-filter: drop-shadow(1rem 1rem 1rem #e0af9b);
@@ -317,7 +325,6 @@ html {
 
 #sideNavBar a:hover {
   left: 0;
-  /* On mouse-over, make the elements appear as they should */
 }
 
 #home {
