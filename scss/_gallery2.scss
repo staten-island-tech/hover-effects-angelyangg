@@ -14,18 +14,21 @@ html{
     left: 16.5rem;
 }
 .bw1{
-    width: 20%;
+    width: 22%;
+    height: 21%;
     border: 1rem solid white;
 }
 .bw1:hover{
-    transform: scale(1.1);
+    transform: scale(.95);
+    transition-duration: 0.3s;
 }
 .bw2{
-    width: 20%;
+    width: 22%;
     top: 51rem;
     border: 1rem solid white;
     position: absolute;
 }
 .bw2:hover{
-    transform: scale(1.1);
+    transform: scale(.95);
+    transition-duration: 0.3s;
 }
