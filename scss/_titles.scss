@@ -3,13 +3,31 @@
 html{
     font-size: 62.5%;
     padding: 0rem;
-    margin-top: -3rem;
+    margin-top: 0rem;
     box-sizing: 0rem;
 }
-.title1 {
+.butterflypic{
     position: relative;
-    top: 84rem;
-    margin-right: -16rem;
+    display: block;
+    margin: 0 auto;
+    margin-top: 3rem;
+    width: 65%;
+}
+.hvr-grow {
+    -webkit-transform: perspective(1rem) translateZ(0);
+    transform: perspective(1rem) translateZ(0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+.title{
+    position: relative;
+    margin-top: -9rem;
     text-align: center;
     text-transform: uppercase;
     font-family: 'Quicksand', sans-serif;

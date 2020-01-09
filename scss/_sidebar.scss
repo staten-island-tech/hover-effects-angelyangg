@@ -1,11 +1,11 @@
 @import "_variables.scss";
 
-html{
-    font-size: 62.5%;
-    padding: 0rem;
-    margin-top: -3rem;
-    box-sizing: 0rem;
-}
+// html{
+//     font-size: 62.5%;
+//     padding: 0rem;
+//     margin-top: 0rem;
+//     box-sizing: 0rem;
+// }
 #sideNavBar a {
   position: fixed; /* Position them relative to the browser window */
   padding: 2rem;
@@ -21,7 +21,7 @@ html{
 }
 
 #sideNavBar a:hover {
-  left: 0; 
+  left: 0; /* On mouse-over, make the elements appear as they should */
 }
 #home {
   top: 31rem;
