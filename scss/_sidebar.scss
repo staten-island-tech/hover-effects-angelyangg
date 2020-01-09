@@ -1,13 +1,13 @@
 @import "_variables.scss";
 
-// html{
-//     font-size: 62.5%;
-//     padding: 0rem;
-//     margin-top: 0rem;
-//     box-sizing: 0rem;
-// }
+html{
+    font-size: 62.5%;
+    padding: 0rem;
+    margin-top: 0rem;
+    box-sizing: 0rem;
+}
 #sideNavBar a {
-  position: fixed; /* Position them relative to the browser window */
+  position: fixed;
   padding: 2rem;
   width: 12rem; 
   left: -3rem; 
